@@ -1,0 +1,186 @@
+
+* {
+    font-family: michromaregular;
+}
+
+
+#backgroundVid {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    height: 100vh;
+
+    z-index: -1;
+}
+
+
+
+#logoText {
+    height: 80px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navBarLogo {
+    width: 80px;
+}
+
+.navBar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+
+.navBar li {
+    padding-right: 1rem;
+    margin-right: 1rem;
+
+    font-size: 1.7rem;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: #ffffff
+}
+
+#merch {
+    height: 50px;
+}
+
+#aboutUs {
+    height: 50px;
+}
+
+#contact {
+    height: 50px;
+}
+
+
+
+
+
+
+.welcomeSection {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100vw;
+    height: 100vh;
+
+    margin-top: 90px;
+}
+
+
+.welcomeSectionText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 50%;
+}
+
+.welcomeSectionImg {
+    display: flex;
+
+    width: 50%;
+}
+
+#logoImg {
+    width: 650px;
+    height: 600px;
+}
+
+#digt {
+    width: 650px;
+}
+
+/*
+h2 {
+    font-family: yugitoyregular;
+    font-size: 5rem;
+    font-weight: bold;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+    color: white;
+
+    margin: 0;
+}
+
+h3 {
+    font-family: yugitoyregular;
+    font-size: 2rem;
+
+    color: white;
+}
+
+ */
+
+
+
+
+
+
+
+
+/* Copy right text */
+
+.copyRight {
+    color: white;
+    font-size: 14px;
+
+    margin: 30px;
+}
+
+#copyRight {
+    color: #e63946;
+    font-family: "racing_sans_oneregular";
+    font-size: 18px;
+}
+
+
+
+
+
+
+/* Font family */
+
+@font-face {
+    font-family: 'michromaregular';
+    src: url('fontFamily1/michroma-regular-webfont.woff2') format('woff2'),
+    url('fontFamily1/michroma-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ifc_railroadbold';
+    src: url('fontFamily2/ifc_railroad_2-webfont.woff2') format('woff2'),
+    url('fontFamily2/ifc_railroad_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'racing_sans_oneregular';
+    src: url('fontFamily3/racingsansone-regular-webfont.woff2') format('woff2'),
+    url('fontFamily3/racingsansone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yugitoyregular';
+    src: url('fontFamily4/yugitoy-webfont.woff2') format('woff2'),
+    url('fontFamily4/yugitoy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

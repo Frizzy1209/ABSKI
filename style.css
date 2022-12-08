@@ -151,6 +151,61 @@ h3 {
 
 
 
+@media only screen and (max-width: 1500px) {
+    #computerBackgroundVid {
+        display: none;
+    }
+
+
+    #logoText {
+        height: 65px;
+    }
+
+    #merch {
+        height: 40px;
+    }
+
+    #aboutUs {
+        height: 40px;
+    }
+
+    #contact {
+        height: 40px;
+    }
+
+
+
+
+    .welcomeSection {
+        margin-top: 50px;
+    }
+
+    #logoImg {
+        width: 500px;
+        height: 450px;
+    }
+
+    #digt {
+        width: 500px;
+    }
+
+
+
+
+    .copyRight {
+        font-size: 10px;
+
+        margin: 20px;
+    }
+
+    #copyRight {
+        font-size: 14px;
+    }
+
+}
+
+
+
 /* Font family */
 
 @font-face {

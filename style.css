@@ -67,9 +67,11 @@
 
 
 
+/* Welcome section */
+
 .welcomeSection {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     width: 100vw;
     height: 100vh;
@@ -88,6 +90,8 @@
 
 .welcomeSectionImg {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 
     width: 50%;
 }
@@ -151,11 +155,9 @@ h3 {
 
 
 
-@media only screen and (max-width: 1500px) {
-    #computerBackgroundVid {
-        display: none;
-    }
+/* Smaller computer screen */
 
+@media only screen and (max-width: 1500px) {
 
     #logoText {
         height: 65px;
@@ -203,6 +205,77 @@ h3 {
     }
 
 }
+
+
+
+
+
+
+/* Even smaller screens */
+
+@media only screen and (max-width: 1080px) {
+
+    #logoText {
+        height: 45px;
+    }
+
+    #merch {
+        height: 30px;
+    }
+
+    #aboutUs {
+        height: 30px;
+    }
+
+    #contact {
+        height: 30px;
+    }
+
+
+
+
+    .welcomeSection {
+        margin-top: 40px;
+    }
+
+    #logoImg {
+        width: 400px;
+        height: 350px;
+    }
+
+    #digt {
+        width: 400px;
+    }
+
+
+
+
+    .copyRight {
+        font-size: 10px;
+
+        margin: 20px;
+    }
+
+    #copyRight {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 850px) {
+
+    body {
+        display: none;
+    }
+
+}
+
+
+
 
 
 

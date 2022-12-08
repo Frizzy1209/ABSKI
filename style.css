@@ -3,13 +3,13 @@
     font-family: michromaregular;
 }
 
-
 #backgroundVid {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    top: 0;
+    left: 0;
 
-    height: 100vh;
+
+    width: 100vw;
 
     z-index: -1;
 }
@@ -97,12 +97,12 @@
 }
 
 #logoImg {
-    width: 650px;
-    height: 600px;
+    width: 60px;
+    height: 550px;
 }
 
 #digt {
-    width: 650px;
+    width: 600px;
 }
 
 /*
@@ -157,7 +157,7 @@ h3 {
 
 /* Smaller computer screen */
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1750px) {
 
     #logoText {
         height: 65px;
@@ -213,7 +213,7 @@ h3 {
 
 /* Even smaller screens */
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1350px) {
 
     #logoText {
         height: 45px;
@@ -266,16 +266,113 @@ h3 {
 
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
 
-    body {
-        display: none;
+    #logoText {
+        height: 35px;
+    }
+
+    #merch {
+        height: 20px;
+    }
+
+    #aboutUs {
+        height: 20px;
+    }
+
+    #contact {
+        height: 20px;
+    }
+
+
+
+
+    .welcomeSection {
+        margin-top: 30px;
+    }
+
+    #logoImg {
+        width: 300px;
+        height: 250px;
+    }
+
+    #digt {
+        width: 300px;
+    }
+
+
+
+
+    .copyRight {
+        font-size: 10px;
+
+        margin: 20px;
+    }
+
+    #copyRight {
+        font-size: 14px;
     }
 
 }
 
 
 
+
+
+
+
+@media only screen and (max-width: 850px) {
+
+    body {
+        display: none;
+    }
+
+    #logoText {
+        height: 35px;
+    }
+
+    #merch {
+        height: 20px;
+    }
+
+    #aboutUs {
+        height: 20px;
+    }
+
+    #contact {
+        height: 20px;
+    }
+
+
+
+
+    .welcomeSection {
+        margin-top: 30px;
+    }
+
+    #logoImg {
+        width: 300px;
+        height: 250px;
+    }
+
+    #digt {
+        width: 300px;
+    }
+
+
+
+
+    .copyRight {
+        font-size: 10px;
+
+        margin: 20px;
+    }
+
+    #copyRight {
+        font-size: 14px;
+    }
+
+}
 
 
 
